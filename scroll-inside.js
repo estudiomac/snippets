@@ -1,3 +1,5 @@
+var listContainer = $("#tab-tab3-name ul li");
+
 if (listContainer.length > 20) {
 	$("#tab-tab3-name ul").css({
 		height: '400px',
