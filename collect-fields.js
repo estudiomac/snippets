@@ -1,6 +1,6 @@
-function collectFields() {	
-	
-	$("#uoq, #uol, #umq, #uml, #rutschhemmend").bind('keypress blur', function(){
+function collectFields() {		
+	$("#uoq, #uol, #umq, #uml, #rutschhemmend").bind('change', function(){
+        
 		var checkBox = $("#rutschhemmend");
 		($(checkBox).is(":checked")) ? $(checkBox).val("rutschhemmend") : $(checkBox).val("");
  
