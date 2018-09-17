@@ -32,7 +32,6 @@ function checkCustomFields() {
 			}
 		});			
 		
-	
 		var aTag = $("#erw");		
 		if(!$( ".eigenschaftwert-custom").val()) {			
 			$('html, body').animate({scrollTop: aTag.offset().top - 300},'slow');
